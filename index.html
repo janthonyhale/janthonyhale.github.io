@@ -6,19 +6,38 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
             text-align: center;
+            padding: 8rem;
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
         }
         .profile-picture {
             border-radius: 50%;
-            width: 500px;
-            height: 500px;
+            width: 350px;
+            height: 350px;
             object-fit: cover;
+            margin-bottom: 2.5rem;
+        }
+        h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            color: #333333;
         }
     </style>
     <title>James Hale</title>
 </head>
 <body>
-    <div>
+    <div class="container">
         <img src="images/profile-picture.jpg" alt="Profile Picture" class="profile-picture">
         <h1>Hello, I'm James Hale.</h1>
     </div>
