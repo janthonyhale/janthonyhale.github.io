@@ -1,59 +1,214 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            text-align: center;
-            padding: 8rem;
-            background-color: #ffffff;
-            border-radius: 20px;
-            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-            opacity: 0; /* Start with zero opacity */
-            animation: fade-in 1.5s ease-in-out forwards; /* Apply fade-in animation */
-        }
-        .profile-picture {
-            border-radius: 50%;
-            width: 350px;
-            height: 350px;
-            object-fit: cover;
-            margin-bottom: 2.5rem;
-        }
-        h1 {
-            font-size: 3.5rem;
-            margin: 0;
-            color: #333333;
-        }
-
-        /* Define the fade-in animation */
-        @keyframes fade-in {
-            0% {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-    </style>
-    <title>James Hale</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>James Anthony Hale</title>
+  <meta name="description" content="James Anthony Hale — Ph.D. student at USC ICT. AI-mediated dispute resolution, negotiation, and human-agent interaction." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <div class="container">
-        <img src="images/profile-picture.jpg" alt="Profile Picture" class="profile-picture">
-        <h1>Hello, I'm James Hale.</h1>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div class="profile">
+        <!-- IMPORTANT: rename your file to something like assets/me.jpg -->
+	<img class="avatar" src="assets/ME.JPEG" alt="Photo of James Anthony Hale" />
+
+
+        <div class="headline">
+          <h1>James Anthony Hale</h1>
+          <p class="subtitle">Ph.D. Student (Computer Science) • USC Institute for Creative Technologies</p>
+          <p class="tags">
+            AI-mediated dispute resolution · negotiation · preference elicitation · agent design · embodiment
+          </p>
+
+          <div class="links">
+            <a href="mailto:jahale@usc.edu">jahale@usc.edu</a>
+            <span class="dot">•</span>
+            <a href="https://scholar.google.com/citations?user=JF4fJ_kAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
+          </div>
+        </div>
+      </div>
+
+
     </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>
+        I’m a fifth-year Ph.D. student at the University of Southern California’s Institute for Creative Technologies (ICT),
+        specializing in human-agent dispute resolution. My work focuses on AI-mediated dispute resolution and negotiation,
+        preference elicitation, agent design, and embodiment. I design and run large-scale human-subject studies to evaluate
+        these systems.
+      </p>
+
+      <div class="callouts">
+        <div class="pill">5,000+ study participants</div>
+        <div class="pill">International conference talks</div>
+        <div class="pill">LLMs • RL • Human-AI experiments</div>
+      </div>
+    </section>
+
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <ul class="clean">
+        <li>
+          <strong>University of Southern California</strong> — Los Angeles, CA<br />
+          Ph.D. student in Computer Science (Expected Dec 2026), advised by Dr. Jonathan Gratch<br />
+          M.Sc. in Computer Science
+        </li>
+        <li>
+          <strong>University of Tulsa</strong> — Tulsa, OK (May 2021)<br />
+          B.S. in Computer Science & Mathematics, Minor in High-Performance Computing — GPA 3.97 (Magna Cum Laude)
+        </li>
+      </ul>
+    </section>
+
+    <section id="experience" class="card">
+      <h2>Experience</h2>
+
+      <div class="stack">
+        <div class="role">
+          <div class="role-top">
+            <h3>USC — Graduate Research Assistant</h3>
+            <span class="muted">Aug 2021 – Present</span>
+          </div>
+          <ul>
+            <li>Presented 5 AI talks at international conferences/workshops (Greece, Portugal, England, Australia, Singapore).</li>
+            <li>Designed within/between-subject and mixed-factor experiments for human-AI research.</li>
+            <li>Ran online studies with 5,000+ participants (MTurk, Prolific, USC student pool).</li>
+            <li>Statistical analysis in Python and R (ANOVA, regression, correlation, moderation).</li>
+            <li>Supervised 5 undergraduate + 5 graduate interns; mentored 3 REU interns.</li>
+            <li>Experience with deep learning, reinforcement learning, and large language models.</li>
+          </ul>
+        </div>
+
+        <div class="role">
+          <div class="role-top">
+            <h3>USC — Graduate Teaching Assistant</h3>
+            <span class="muted">Aug 2024 – May 2025</span>
+          </div>
+          <ul>
+            <li><strong>CSCI 534 Affective Computing:</strong> ran in-class experiments, office hours, grading.</li>
+            <li><strong>CSCI 102 Fundamentals of Computation:</strong> led labs, office hours, proctored exams, grading.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="card">
+      <div class="row space-between">
+        <h2>Publications</h2>
+        <a class="btn small" href="https://scholar.google.com/citations?user=JF4fJ_kAAAAJ&hl=en" target="_blank" rel="noreferrer">
+          Google Scholar
+        </a>
+      </div>
+
+      <h3 class="mt-12">Selected</h3>
+      <ol class="pubs">
+        <li>
+          Kwon, Shrestha, Han, Lin, Hale, Gratch, Mataric, Lucas.
+          <em>“Can LLMs Truly Embody Human Personality? Analyzing AI and Human Behavior Alignment in Dispute Resolution.”</em>
+          AAAI (AI for Social Impact), 2026.
+        </li>
+        <li>
+          Rakshit, Hale, Chawla, Brett, Gratch.
+          <em>“Emotionally-Aware Agents for Dispute Resolution.”</em>
+          ACII, 2025.
+        </li>
+        <li>
+          Hale, Kim, Gratch.
+          <em>“Provably fair algorithms may perpetuate racial and gender bias: A study of salary dispute resolution.”</em>
+          Autonomous Agents and Multi-Agent Systems (Citizen-Centric AI Systems), 2025.
+        </li>
+        <li>
+          Hale, Rakshit, Chawla, Brett, Gratch.
+          <em>“KODIS: A Multicultural Dispute Resolution Dialogue Corpus.”</em>
+          NAACL, 2025.
+        </li>
+        <li>
+          Hale, Schweitzer, Gratch.
+          <em>“Pitfalls of Embodiment in Human-Agent Experiment Design.”</em>
+          IVA, 2024.
+        </li>
+        <li>
+          Hale, Kim, Gratch.
+          <em>“Preference Interdependencies in a Multi-Issue Salary Negotiation.”</em>
+          IVA, 2022.
+        </li>
+      </ol>
+
+      <div id="all-publications" class="mt-24">
+        <h3>All</h3>
+        <p class="muted small">
+          (Local files can’t fetch JSON due to browser security. If you run a local server, this list will auto-populate.)
+        </p>
+        <ol id="pubs-list" class="pubs"></ol>
+      </div>
+    </section>
+
+    <section id="talks" class="card">
+      <h2>Talks</h2>
+      <ul>
+        <li>
+          Hale, Lin, Wu, Rong, Chawla, Lucas, &amp; Gratch.
+          <em>“Instilling discipline in LLM-based negotiating agents.”</em>
+          IACM (87th annual conference), 2024.
+        </li>
+        <li>
+          Schweitzer, Hale, Fast, Mell, Gratch.
+          <em>“Animated Agents in Negotiation.”</em>
+          IACM (86th annual conference), 2023.
+        </li>
+      </ul>
+    </section>
+
+    <section id="service" class="card">
+      <h2>Service</h2>
+      <ul>
+        <li>Reviewer: AAAI (2025), AAMAS (2024), IVA (2024, 2025), CMAS Workshop (2024, 2025).</li>
+        <li>Organizer: SICon Workshop (Program Chair 2024, 2025; Publication Chair 2023); ISRE Submission Chair (2022).</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <ul class="two-col">
+        <li><strong>Languages:</strong> Python, C, C++, C#, R, Java, JavaScript, MPI/OpenMP, MatLab</li>
+        <li><strong>Platforms/Libraries:</strong> Unity, Virtual Human Toolkit, Lioness Labs, TensorFlow, SciPy</li>
+      </ul>
+    </section>
+
+    <section id="resume" class="card">
+      <div class="row space-between">
+        <h2>Resume (PDF)</h2>
+        <a class="btn small" href="assets/HaleResume2026.pdf" target="_blank" rel="noreferrer">Open</a>
+      </div>
+
+      <div class="pdf-wrap" role="region" aria-label="Embedded resume PDF">
+        <iframe
+          src="assets/HaleResume2026.pdf#view=FitH"
+          title="James Anthony Hale Resume"
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:jahale@usc.edu">jahale@usc.edu</a></p>
+      <p class="muted">Los Angeles, CA • USC Institute for Creative Technologies</p>
+    </section>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> James Anthony Hale</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
+

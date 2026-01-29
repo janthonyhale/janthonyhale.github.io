@@ -1,0 +1,156 @@
+[
+  {
+    "type": "article",
+    "title": "Effects of parity, sympathy and reciprocity in increasing social welfare",
+    "authors": "Sandip Sen; Chad Crawford; Adam Dees; Rachna Nanda Kumar; James Hale",
+    "venue": "The Knowledge Engineering Review",
+    "year": 2020,
+    "volume": "35",
+    "pages": "e31",
+    "publisher": "Cambridge University Press"
+  },
+  {
+    "type": "inproceedings",
+    "title": "FUN-Agent: A 2020 HUMAINE Competition Entrant",
+    "authors": "Robert Geraghty; James Hale; Sandip Sen; Timothy S Kroecker",
+    "venue": "Proceedings of the 1st International Workshop on Multimodal Conversational AI",
+    "year": 2020,
+    "pages": "15--21"
+  },
+  {
+    "type": "inproceedings",
+    "title": "An Application of the INFINITE framework in a Human-Agent Negotiation Competition",
+    "authors": "Bohan Xu; James A Hale; Shadow Pritchard; Sandip Sen",
+    "venue": "Proceedings of the 8th International Conference on Human-Agent Interaction",
+    "year": 2020,
+    "pages": "32--40"
+  },
+  {
+    "type": "inproceedings",
+    "title": "FUN-Agent: A HUMAINE Competitor",
+    "authors": "Robert Geraghty; James Hale; Sandip Sen",
+    "venue": "International Conference on Distributed Artificial Intelligence",
+    "year": 2021,
+    "pages": "171--184",
+    "publisher": "Springer International Publishing Cham"
+  },
+  {
+    "type": "inproceedings",
+    "title": "Preference interdependencies in a multi-issue salary negotiation",
+    "authors": "James Hale; Peter Kim; Jonathan Gratch",
+    "venue": "Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents",
+    "year": 2022,
+    "pages": "1--8"
+  },
+  {
+    "type": "inproceedings",
+    "title": "Negotiation game to introduce non-linear utility",
+    "authors": "James Hale; Harsh Jalan; Nidhi Saini; Shao Ling Tan; Junhyuck Woo; Jonathan Gratch",
+    "venue": "Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents",
+    "year": 2022,
+    "pages": "1--3"
+  },
+  {
+    "type": "inproceedings",
+    "title": "Risk Aversion and Demographic Factors Affect Preference Elicitation and Outcomes of a Salary Negotiation",
+    "authors": "James Hale; Peter H Kim; Jonathan Gratch",
+    "venue": "Proceedings of the Annual Meeting of the Cognitive Science Society",
+    "year": 2023,
+    "volume": "45",
+    "number": "45"
+  },
+  {
+    "type": "inproceedings",
+    "title": "Toward a Better Understanding of the Emotional Dynamics of Negotiation with Large Language Models",
+    "authors": "Eleanor Lin; James Hale; Jonathan Gratch",
+    "venue": "Proceedings of the Twenty-fourth International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing",
+    "year": 2023,
+    "pages": "545--550"
+  },
+  {
+    "type": "article",
+    "title": "Improving social connection with weak ties and strangers: effects of a new micro-intervention on interaction quality and social behavior",
+    "authors": "Taylor N West; Michael M Prinzing; Catherine Garton; Catherine J Berman; Jieni Zhou; James Hale; Jonathan Gratch; Barbara L Fredrickson",
+    "venue": "The Journal of Positive Psychology",
+    "year": 2024,
+    "pages": "1--11",
+    "publisher": "Taylor & Francis"
+  },
+  {
+    "type": "inproceedings",
+    "title": "Evaluating Adaptive and Non-adaptive Strategies for Selecting and Orienting Influencer Agents for Effective Flock Control",
+    "authors": "James Hale; Adam Dees; Jayson Garrison; Sandip Sen",
+    "venue": "International Conference on Principles and Practice of Multi-Agent Systems",
+    "year": 2022,
+    "pages": "509--522",
+    "publisher": "Springer"
+  },
+  {
+    "type": "inproceedings",
+    "title": "Proceedings of the Second Workshop on Social Influence in Conversations (SICon 2024)",
+    "authors": "James Hale; Kushal Chawla; Muskan Garg",
+    "venue": "Proceedings of the Second Workshop on Social Influence in Conversations (SICon 2024)",
+    "year": 2024
+  },
+  {
+    "type": "inproceedings",
+    "title": "Integration of LLMs with Virtual Character Embodiment",
+    "authors": "James Hale; Lindsey Schweitzer; Jonathan Gratch",
+    "venue": "Proceedings of the 24th ACM International Conference on Intelligent Virtual Agents",
+    "year": 2024,
+    "pages": "1--3"
+  },
+  {
+    "type": "inproceedings",
+    "title": "Pitfalls of embodiment in human-agent experiment design",
+    "authors": "James Hale; Lindsey Schweitzer; Jonathan Gratch",
+    "venue": "Proceedings of the 24th ACM International Conference on Intelligent Virtual Agents",
+    "year": 2024,
+    "pages": "1--9"
+  },
+  {
+    "type": "article",
+    "title": "“Provably fair” algorithms may perpetuate racial and gender bias: a study of salary dispute resolution",
+    "authors": "James Hale; Peter H Kim; Jonathan Gratch",
+    "venue": "Autonomous Agents and Multi-Agent Systems",
+    "year": 2025,
+    "volume": "39",
+    "number": "1",
+    "pages": "1--15",
+    "publisher": "Springer"
+  },
+  {
+    "type": "inproceedings",
+    "title": "AI-Mediated Dispute Resolution",
+    "authors": "James Hale; HanMoe Kim; Ahyoung Choi; Jonathan Gratch",
+    "venue": "Proceedings of the AAAI Symposium Series",
+    "year": 2025,
+    "volume": "5",
+    "number": "1",
+    "pages": "67--70"
+  },
+  {
+    "type": "article",
+    "title": "KODIS: A Multicultural Dispute Resolution Dialogue Corpus",
+    "authors": "James Hale; Sushrita Rakshit; Kushal Chawla; Jeanne M Brett; Jonathan Gratch",
+    "venue": "arXiv preprint",
+    "year": 2025,
+    "arxiv": "2504.12723"
+  },
+  {
+    "type": "article",
+    "title": "Emotionally-Aware Agents for Dispute Resolution",
+    "authors": "Sushrita Rakshit; James Hale; Kushal Chawla; Jeanne M Brett; Jonathan Gratch",
+    "venue": "arXiv preprint",
+    "year": 2025,
+    "arxiv": "2509.04465"
+  },
+  {
+    "type": "inproceedings",
+    "title": "Proceedings of the Third Workshop on Social Influence in Conversations (SICon 2025)",
+    "authors": "James Hale; Brian Deuksin Kwon; Ritam Dutt",
+    "venue": "Proceedings of the Third Workshop on Social Influence in Conversations (SICon 2025)",
+    "year": 2025
+  }
+]
+
